@@ -115,11 +115,11 @@ print("Dataset generated with hybrid data!")
 # from google.colab import files
 # files.download('historical_aqi_data.csv')
 
-!wget -qO- https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh | bash -
+# !wget -qO- https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh | bash -
 
-!conda install -n base -c conda-forge ipykernel -y
+# !conda install -n base -c conda-forge ipykernel -y
 
-!conda install -c conda-forge fbprophet -y
+# !conda install -c conda-forge fbprophet -y
 
 import pandas as pd
 from prophet import Prophet
